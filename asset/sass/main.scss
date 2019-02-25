@@ -11,7 +11,7 @@ $cursive-font-stack: 'Bad Script', cursive;
 }
 
 @mixin carousel_background($bg_image) {
-	  		background: linear-gradient( rgba(239, 35, 60, 0.45),  rgba(239, 35, 60, 0.45)), url('images/#{$bg_image}.jpg') no-repeat center center scroll;
+	  		background: linear-gradient( rgba(239, 35, 60, 0.45),  rgba(239, 35, 60, 0.45)), url('../images/#{$bg_image}.jpg') no-repeat center center scroll;
 	  		-webkit-background-size: cover;
 	  		-moz-background-size: cover;
 	  		-o-background-size: cover;
@@ -104,6 +104,10 @@ body {
 	  height: 100vh;
 	  width: 100%;
 
+	  h2 {
+	  	font-size: $primary-font-size * 1.3;
+	  }
+
 	  .panel {
 	  	display: flex;
 		  	width: 100%;
@@ -179,20 +183,19 @@ body {
 		}
 	}
 
-#about {
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-.cross-s {
-	padding-top: 20px;
-}
-	h1 {
-		@include cursive(3);
-	}
-
-	h3 {
-		font-size: $primary-font-size * 1.3;
-	}
-
-	h4 {
-		font-size: $primary-font-size;
-	}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+	#work {
+			.scrolling-wrapper-flexbox  {
+			  .panel {
+			  	h2 {
+			  		font-size: 2em;
+			  		margin: 0.75em 0;
+			  	}
+			  }
+			}
+		}
 }
