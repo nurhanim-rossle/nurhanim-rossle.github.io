@@ -18,7 +18,7 @@ body {
   height: 100vh;
   font: 100% "Raleway", sans-serif;
   color: #30323d;
-  background-color: #F5F6F4;
+  background-color: #fffdfd;
 }
 
 #landing h1 {
@@ -57,10 +57,10 @@ body {
   border: 5px solid rgba(255, 255, 255, 0.5);
 }
 #work .scrolling-wrapper-flexbox .panel a {
-  color: #F5F6F4;
+  color: #fffdfd;
 }
 #work .scrolling-wrapper-flexbox #panel1 {
-  background-color: #F5F6F4;
+  background-color: #fffdfd;
   border: 5px solid rgba(255, 255, 255, 0.5);
 }
 #work .scrolling-wrapper-flexbox #panel1:hover {
@@ -73,10 +73,10 @@ body {
   opacity: 0.5;
 }
 #work .scrolling-wrapper-flexbox #panel1:hover h2 {
-  color: #F5F6F4;
+  color: #fffdfd;
 }
 #work .scrolling-wrapper-flexbox #panel2 {
-  background-color: #F5F6F4;
+  background-color: #fffdfd;
   border: 5px solid rgba(255, 255, 255, 0.5);
 }
 #work .scrolling-wrapper-flexbox #panel2:hover {
@@ -89,10 +89,10 @@ body {
   opacity: 0.5;
 }
 #work .scrolling-wrapper-flexbox #panel2:hover h2 {
-  color: #F5F6F4;
+  color: #fffdfd;
 }
 #work .scrolling-wrapper-flexbox #panel3 {
-  background-color: #F5F6F4;
+  background-color: #fffdfd;
   border: 5px solid rgba(255, 255, 255, 0.5);
 }
 #work .scrolling-wrapper-flexbox #panel3:hover {
@@ -105,7 +105,7 @@ body {
   opacity: 0.5;
 }
 #work .scrolling-wrapper-flexbox #panel3:hover h2 {
-  color: #F5F6F4;
+  color: #fffdfd;
 }
 
 .navigation-links {
@@ -144,6 +144,7 @@ body {
   #work .scrolling-wrapper-flexbox .panel h2 {
     font-size: 2em;
     margin: 0.75em 0;
+    text-align: center;
   }
 }
 

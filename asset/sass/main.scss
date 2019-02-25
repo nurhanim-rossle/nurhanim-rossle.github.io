@@ -2,7 +2,7 @@ $font-stack: 'Raleway', sans-serif;
 $primary-font-color: #30323d;
 $primary-back-color: #cbf7ed;
 $primary-link-color: #ef233c;
-$background-color: #F5F6F4;
+$background-color: #fffdfd;
 $primary-font-size: 1em;
 $cursive-font-stack: 'Bad Script', cursive;
 
@@ -171,6 +171,7 @@ body {
 			  	h2 {
 			  		font-size: 2em;
 			  		margin: 0.75em 0;
+			  		text-align: center;
 			  	}
 			  }
 			}
