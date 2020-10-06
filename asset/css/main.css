@@ -32,6 +32,7 @@ body {
 }
 #landing ul {
   padding-top: 30px;
+  padding-left: 0;
 }
 
 #work .scrolling-wrapper-flexbox {
@@ -113,7 +114,7 @@ body {
 }
 .navigation-links li {
   display: inline-block;
-  width: 7vh;
+  /* width: 7vh;
   height: 7vh;
   border-radius: 50%;
   margin: 0 2vh 3vh 2vh;
@@ -121,7 +122,9 @@ body {
   text-align: center;
   background-color: #cbf7ed;
   transition-timing-function: ease-in-out;
-  transition: all 0.3s;
+  transition: all 0.3s; */
+
+  padding: 20px;
 }
 .navigation-links li .fas .fab {
   font-size: 1.5em;
@@ -130,16 +133,70 @@ body {
 .navigation-links li span a {
   color: #30323d;
 }
-.navigation-links li:hover {
+/* .navigation-links li:hover {
   transform: translateY(-15px) scale(1.2);
   background-color: #ef233c;
-}
+} */
 .navigation-links li:hover span a {
   color: #ffffff;
+  
 }
 .navigation-links li span {
   line-height: 7vh;
 }
+
+.fa-linkedin-in::before, .fa-pencil-alt::before, .fa-tumblr::before, .fa-file-code::before {
+  font-size: 32px;
+  margin:auto;
+  text-indent: 0;
+  text-align: center;
+  
+  transition-timing-function: ease-in-out;
+  transition: all 0.3s;
+}
+
+.fas, .fab {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #cbf7ed;
+  padding-top: 8px;
+}
+.fa-linkedin-in:hover, .fa-pencil-alt:hover {
+  /* background-color: #ef233c;
+  color: #ef233c; */
+}
+
+#sideproject h1{
+    font-family: "Bad Script", cursive;
+    font-size: 4em;
+}
+
+.card {
+  border-radius: 0;
+}
+.card-body {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.card-body .card-title {
+  color: #8d99ae;
+}
+.card-footer {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 0;
+}
+.card-footer .btn-green {
+  background-color: #cbf7ed;
+}
+.card-footer .btn-green:hover {
+  background-color: #6267cd;
+  color: #ffffff;
+}
+
+
+
 @media (min-width: 576px) {
   #work .scrolling-wrapper-flexbox .panel h2 {
     font-size: 2em;
